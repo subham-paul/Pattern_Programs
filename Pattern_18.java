@@ -13,9 +13,9 @@ public class Pattern_18 {
         System.out.print("Enter a range for print pattern-> ");
         int n = subham.nextInt();
         // int n = 5;
-        for (int row = 1; row <= n; row++){
+        for (int row = 1; row <= n; row++) {
             for (int col = 1; col <= n; col++) {
-                System.out.print((row+col)%2 + " ");
+                System.out.print((row + col) % 2 + " ");
             }
             System.out.println();
         }
