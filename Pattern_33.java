@@ -15,6 +15,9 @@ public class Pattern_33 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Please Enter a Number-> ");
         n = sc.nextInt();
+        if (n < 0) {
+            System.out.println("Please enter Positive number");
+        }
         if (n <= 5) {
             for (int loop = 1; loop <= n; loop++) {
                 x = n - loop;
