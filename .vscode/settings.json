@@ -1,4 +1,6 @@
 {
     "code-runner.runInTerminal": true,
-    "debug.terminal.clearBeforeReusing": true
+    "debug.terminal.clearBeforeReusing": true,
+    "editor.mouseWheelZoom": true,
+    "code-runner.clearPreviousOutput": true
 }
