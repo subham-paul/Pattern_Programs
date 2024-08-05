@@ -1,9 +1,9 @@
-let n=5;
-let str="";
-for(row=1;row<=n;row++){
-    for(col=1;col<=n-row;col++){
+let n = 5;
+let str = "";
+for (row = 1; row <= n; row++) {
+    for (col = 1; col <= n - row; col++) {
         str += "*";
     }
-    str+="\n"
+    str += "\n"
 }
 console.log(str);
